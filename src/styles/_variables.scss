@@ -1,0 +1,75 @@
+/*--------------------------
+    COLORS
+-------------------------------------------------------------------------------------------------------*/
+$colorPrimary			:#66286B;;
+
+$colorDanger			:#F44336;
+
+$colorDefault			:#8E8E8E;
+
+$colorSecondary			:#55C0C9;//#4054b2;
+
+$colorBlue 				:#55C0C9;
+
+$colorText				:#646464; //#484848;
+
+$colorTextLite			:lighten($colorText, 30%);
+
+$colorBackground		:#ffffff;
+
+$colorDailogBackground	:darken($colorBackground, 0.5%);
+
+$colorWhitesmoke		:#fafafa;
+
+$colorDull				:#707070;
+
+$adradiocolor 			: #9744A2;
+
+$colorWhite				:#ffffff;
+
+$colorStar				:#FF9800;
+
+$colorgrey				:#999999;
+$colorgray				:#808080;
+$gray-border			:#f3f3f4;
+
+$colorLightgreyish		:#707070;
+
+$borderGrey				:#707070;
+
+$colorlightblue 		:#1FFFDD;
+
+$colorDark 				:#000000;
+$sky-blue				:#36849E;
+
+
+/* ---------------------------
+	FONT SIZE
+------------------------------------------------------------------------------------------------------- */
+
+$fontSizeXXS	:12px;
+
+$fontSizeXS		:14px;
+
+$fontSizeSM		:16px;  
+
+$fontSizeMD		:17px;
+
+$fontSizeLG		:21px;
+
+$fontSizeXL		:24px;
+
+$fontSizeXXL	:30px;
+
+$fontFamily		:'Roboto', sans-serif;
+
+
+$lineHieghtXXS	:18px;
+
+$lineHieghtXS	: 19px;
+
+$lineHieghtSM	: 21px;
+
+$lineHieghtMD	: 24px;
+
+$lineHieghtLG 	: 28px;
