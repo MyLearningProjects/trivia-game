@@ -1,0 +1,13 @@
+body {
+	font-size: $fontSizeXS;
+	color: $colorText;
+	background-color: $colorBackground;
+	font-family: $fontFamily ;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    padding-right:0;
+    line-height: $lineHieghtSM;
+    overflow-y:scroll;
+    position:relative;
+}
