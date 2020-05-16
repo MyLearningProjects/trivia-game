@@ -18,7 +18,9 @@ class Game extends Component {
             <Layout>
                 <Row>
                     <Col>
-                        <GameContainer/>
+                        <GameContainer
+                            history = {this.props.history}
+                        />
                     </Col>
                 </Row>
             </Layout>
