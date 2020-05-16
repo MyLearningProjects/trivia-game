@@ -93,7 +93,6 @@ class Game extends Component {
     }
 
     render() {
-        console.log(this.props ,this.state)
         const {
             loading,
             activeScreen,
