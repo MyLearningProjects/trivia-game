@@ -3,20 +3,30 @@ import {
     Row,
     Col
 }                   from "reactstrap";
+import  {
+    withRouter
+}                       from "react-router-dom";
 import Layout from "../../commons/Components/Layout";
 
 
-export default class Home extends Component {
+class Home extends Component {
+
+    handleRedirect = () => {
+        this.props.history.push("/game")
+    }
+
     render() {
         return (
             <Layout>
                 <Row>
                     <Col>
                         <h5>Welcome To Trivia Game</h5>
-                        <a href="/game" >Play Game</a>
+                        <a href="javascript:void(0)" onClick={this.handleRedirect} >Play Game</a>
                     </Col>
                 </Row>
             </Layout>
         )
     }
 }
+
+export default withRouter(Home);
